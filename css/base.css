@@ -1,0 +1,75 @@
+/* Variables */
+:root {
+    --primary-color: #062A1E;
+    --secondary-color: #0A7A52;
+    --background-color:#060B09;
+    --surface-color:#E3F1EC;
+    --neutral-color:#0A1111;
+
+    --lobster-font: 'Lobster', sans-serif;
+    --sans-font: 'DM Sans', sans-serif;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+html {
+    background-color: var(--background-color);
+    font: 14px;
+    color: var(--surface-color);
+}
+
+
+/* General Styles */
+
+*{
+    font-family: var(--sans-font);
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+h1{
+    color: var(--neutral-color-color);
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+h2{
+    color: var(--neutral-color);
+    font-family: var(--lobster-font);
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    font-size: 1.8rem;
+}
+
+p{
+    color: var(--surface-color);
+    font-size: 1.1rem;
+}
+
+.text-label{
+    color: white;
+    background-color: var(--secondary-color);
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0.8rem 1.5rem;
+    cursor: initial;
+}
+
+
