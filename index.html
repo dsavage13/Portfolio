@@ -3,19 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/section.css"> 
     <link rel="stylesheet" href="./css/responsive.css">
     <title>116 Portfolio</title>
 </head>
 <body>
-    <header class="center center-header-sections">
-        <div class="logo-container">
-            <a href="">
-                <h2>Damian Savage</h2>
-            </a>
-        </div>
-
+    <header class="center-row">
             <nav>
                 <input type="checkbox" id="nav-check">
 
@@ -27,7 +25,7 @@
                     </label>
                 </div>
 
-                <div class="nav-link center">
+                <div class="nav-link center-row">
                     <a href="#">About Me</a>
                     <a href="#">Projects</a>
                     <a href="#">Experience</a>
@@ -38,16 +36,37 @@
 
     </header>
 
-    <section>
-        <!-- About Section -->
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit excepturi dolores magnam libero corporis incidunt sequi reiciendis temporibus, dignissimos quidem vel sed unde error nisi impedit, quis nemo repellendus voluptatum consequuntur eligendi ad omnis voluptates aliquid? Velit rem eos hic tenetur vel incidunt voluptate omnis dolorem magni non? Doloribus, dolores.
+    <section class="about-section center-row">
+    
+            <div class="about-image-container center-row">
+                <img src="/img/portfolio-pic.png" alt="Damian Savage">
+            </div>
+
+            <div class="about-section center-column">
+                <div class="about-description-container center-column">
+                    <h1>HI! MY NAME IS DAMIAN SAVAGE</h1>
+                    <h2>Junior Software Developer</h2>
+                    <p>Junior Software Developer with 3 years of diverse experience in IT, sales, and software development, showcasing strong proficiency in React and Python. Leveraging a solid foundation in CRM and automotive sales, complemented by leadership skills from a Marine Corps background, to drive innovation and efficiency in technical projects. Committed to continuous learning and growth, currently enhancing expertise through a comprehensive Full Stack Development course.</p>
+                    <p>My goal is to leverage my unique blend of skills and experiences to contribute to innovative projects and drive success in a dynamic team environment.</p>
+                </div>
+            </div>
+        
     </section>
 
-    <h1>Title</h1>
-    <h2>Subtitle</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem nihil, inventore doloremque quasi voluptatem iure saepe sint dignissimos nulla assumenda autem ullam eum ea non nemo a illo quo aliquid.</p>
-    <br>
-    <label for="" class="text-label">Skill/Technology</label>
-
+    <section class="skills-section center-column">
+        <h2>Skills</h2>
+        <div class="skills-list ">
+                <label class="text-label">HTML</label>
+                <label class="text-label">CSS</label>
+                <label class="text-label">JavaScript</label>
+                <label class="text-label">Python</label>
+                <label class="text-label">React</label>
+                <label class="text-label">Flask</label>
+                <label class="text-label">SKILL</label>
+                <label class="text-label">SKILL</label>
+                <label class="text-label">SKILL</label>
+                <label class="text-label">SKILL</label>
+        </div>
+    </section>
 </body>
 </html>

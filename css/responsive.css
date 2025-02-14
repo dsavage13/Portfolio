@@ -4,7 +4,26 @@
     html{
         font-size: 12px;
     }
+
+    /* About Section */
+    .about-section{
+        flex-direction: column;
+        margin-top: 4rem;
+    }
+
+    .about-image-container{
+        width: 80%;
+    }
+
+    .about-description-container{
+        width: 85%;
+        margin-top: 3rem;
+    }
+
+    /* Skills Section */
 }
+
+
 
 /* Phone */
 @media(max-width:640px){
@@ -32,7 +51,7 @@
         display: inline-flex;
     }
 
-    nav-check:not(:checked)~.nav-link {
+    #nav-check:not(:checked)~.nav-link {
         height: 0px;
         overflow: hidden;
     }
