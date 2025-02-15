@@ -27,6 +27,7 @@ html {
     background-color: var(--background-color);
     font: 14px;
     color: var(--surface-color);
+    scroll-behavior: smooth;
 }
 
 
@@ -70,6 +71,7 @@ p{
     font-weight: 600;
     padding: 0.8rem 1.5rem;
     cursor: initial;
+    border-radius: 7px;
 }
 
 

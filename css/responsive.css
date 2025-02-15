@@ -55,7 +55,6 @@
         height: 0px;
         overflow: hidden;
     }
-
     #nav-check:checked~.nav-link {
         height: auto;
         overflow: auto;
