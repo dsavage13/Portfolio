@@ -1,19 +1,20 @@
 import "./App.css";
 import heroPhoto from "./hero-photo.jpeg";
+import resume from "./Damian_Savage_Portfolio_Resume.pdf";
 
 function App() {
   const workHistory = [
     {
-      role: "Miner",
-      company: "Lannon Stone Products",
-      period: "Apr 2025 – Present",
+      role: "Freelance Web Developer",
+      company: "Savage Development Group",
+      period: "2024 – Present",
       description:
-        "Operate in a safety-critical, high-discipline environment requiring precision, accountability, and teamwork to maintain efficient operations and meet production goals.",
+        "Building custom websites and applications for small businesses and individuals, utilizing React, JavaScript, and Python to create responsive and user-friendly digital solutions.",
     },
     {
       role: "IT Technician",
       company: "Strategic Technology Solutions",
-      period: "Aug 2021 – Jan 2022",
+      period: "2021 – 2022",
       description:
         "Provided hands-on technical support, installed and configured network infrastructure, and troubleshot hardware and connectivity issues to minimize downtime.",
     },
@@ -182,7 +183,7 @@ function App() {
           
 
           <div className="resume-link-wrap">
-            <a href="/resume.pdf" target="_blank" rel="noreferrer" className="btn btn-secondary">
+            <a href={resume} target="_blank" rel="noreferrer" className="btn btn-secondary">
               Open Full Resume
             </a>
           </div>
