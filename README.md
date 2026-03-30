@@ -4,7 +4,7 @@ Live Site:
 
 ## Preview
 
-![Portfolio Preview](/portfolio-app/portfolio/public/preview.png)
+![Portfolio Preview](/public/preview.png)
 
 ## Tech Stack
 - React
