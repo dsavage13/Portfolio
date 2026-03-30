@@ -1,4 +1,5 @@
 import "./App.css";
+import heroPhoto from "./hero-photo.jpeg";
 
 function App() {
   const workHistory = [
@@ -90,7 +91,7 @@ function App() {
         </div>
 
   <div className="hero-card">
-    <img src="/hero-photo.jpeg" alt="Damian Savage" className="hero-photo" />
+    <img src={heroPhoto} alt="Damian Savage" className="hero-photo" />
   </div>
 </section>
 
